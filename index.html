@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>안상규벌꿀</title>
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
     <script src="./scripts/index.js"></script>
@@ -21,58 +22,64 @@
             <div class="left">
                 <h1><img src="./images/logo.png" alt="안상규벌꿀"></h1>
             </div>
-            <div class="right_n1">
-                <a href="#"><span>제품구매</span></a>
-                <a href="#"><span>안상규벌꿀</span></a>
-                <a href="#"><span>고객센터</span></a>
-                <a href="#"><span>반고흐 뮤지엄 컬렉션</span></a>
-                <a href="#"><span>기업/대량구매</span></a>
-            </div>
-            <div class="right_n2">
-                <div class="search-box">
-                    <input type="text" placeholder="상품명을 입력하세요">
-                    <button type="submit"><img src="./images/search.png" alt="검색하기"></button>
+            <div class="right">
+                <div class="right_n1">
+                    <a href="#"><span>제품구매</span></a>
+                    <a href="#"><span>안상규벌꿀</span></a>
+                    <a href="#"><span>고객센터</span></a>
+                    <a href="#"><span>반고흐 뮤지엄 컬렉션</span></a>
+                    <a href="#"><span>기업/대량구매</span></a>
                 </div>
-                <a href="#"><img src="./images/person.png" alt="마이페이지"></a>
-                <a href="#"><img src="./images/shopping_cart.png" alt="장바구니"></a>
+                <div class="right_n2">
+                    <div class="search-box">
+                        <input type="text" placeholder="상품명을 입력하세요">
+                        <button type="submit"><img src="./images/search.png" alt="검색하기"></button>
+                    </div>
+                    <a href="#"><img src="./images/person.png" alt="마이페이지"></a>
+                    <a href="#"><img src="./images/shopping_cart.png" alt="장바구니"></a>
+                </div>
             </div>
         </header>
         <main>
             <div class="main_bg">
                 <img src="./images/mainbg.png" alt="#">
-                <span>고급스러운 달콤함으로<br>일상을 특별하게.</span>
-                <img src="./images/logo.png" alt="안상규벌꿀">
+                <p>고급스러운 달콤함으로<br>일상을 특별하게.</p>
+                <img class="bg_logo" src="./images/bglogo.png" alt="안상규벌꿀">
             </div>
             <section class="best_seller_title">
                 <p>가격대 별 베스트 셀러</p>
                 <h2>Best Seller</h2>
-                <a href="#"><span>5만원 이하</span></a>
-                <a href="#"><span>5~10만원</span></a>
-                <a href="#"><span>10~15만원</span></a>
-                <a href="#"><span>15만원 이상</span></a>
-                <a href="#"><p>View all</p></a>
+                <div class="price_warp">
+                    <a href="#"><span>5만원 이하</span></a>
+                    <a href="#"><span>5~10만원</span></a>
+                    <a href="#"><span>10~15만원</span></a>
+                    <a href="#"><span class="point">15만원 이상</span></a>
+                </div>
+                <div class="view_more">
+                    <a href="#"><p>View all</p></a>
+                </div>
             </section>
             <div class="swiper-container_wrap best">
                 <div class="swiper-wrapper best_d">
                     <div class="swiper-slide best_s">
-                        <a href="#"><img src="./images/best_001.png" alt=""></a>
-                        <a href="#"><p>봉교진</p></a>
-                        <a href="#"><p><em>580,000</em>원</p></a>
+                        <a class="b_img" href="#"><img src="./images/best_001.png" alt="봉교진"></a>
+                        <a class="b_title" href="#"><p>봉교진</p></a>
+                        <a class="b_price" href="#"><p><em>580,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide best_s">
-                        <a href="#"><img src="./images/best_004.png" alt=""></a>
-                        <a href="#"><p>안가</p></a>
-                        <a href="#"><p><em>265,000</em>원</p></a>
+                        <a class="b_img" href="#"><img src="./images/best_004.png" alt="안가"></a>
+                        <a class="b_title" href="#"><p>안가</p></a>
+                        <a class="b_price" href="#"><p><em>265,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide best_s">
-                        <a href="#"><img src="./images/best_002.png" alt=""></a>
-                        <a href="#"><p>야생화벌꿀</p></a>
-                        <a href="#"><p><em>190,000</em>원</p></a>
+                        <a class="b_img" href="#"><img src="./images/best_002.png" alt="야생화벌꿀"></a>
+                        <a class="b_title" href="#"><p>야생화벌꿀</p></a>
+                        <a class="b_price" href="#"><p><em>190,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide best_s">
-                        <a href="#"><img src="./images/best_003.png" alt=""></a>
-                        <a href="#"><p>황금피나무꿀</p></a>
-                        <a href="#"><p><em>250,000</em>원</p></a>
+                        <a class="b_img" href="#"><img src="./images/best_003.png" alt="황금피나무꿀"></a>
+                        <a class="b_title" href="#"><p>황금피나무꿀</p></a>
+                        <a class="b_price" href="#"><p><em>250,000</em>원</p></a>
                     </div>
                 <div class="swiper-scrollbar"></div>
                 </div>
@@ -85,73 +92,76 @@
             <div class="swiper-container_wrap reco">
                 <div class="swiper-wrapper reco_d">
                     <div class="swiper-slide reco_s">
-                        <a href="#"><img src="./images/best_005.png" alt=""></a>
-                        <a href="#"><p>한국명품 세트</p></a>
-                        <a href="#"><p><em>190,000</em>원</p></a>
+                        <a class="r_img" href="#"><img src="./images/best_005.png" alt=""></a>
+                        <a class="r_title" href="#"><p>한국명품 세트</p></a>
+                        <a class="r_price" href="#"><p><em>190,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide reco_s">
-                        <a href="#"><img src="./images/best_006.png" alt=""></a>
-                        <a href="#"><p>허니영 세트(아카시아+야생화꿀)</p></a>
-                        <a href="#"><p><em>120,000</em>원</p></a>
+                        <a class="r_img" href="#"><img src="./images/best_006.png" alt=""></a>
+                        <a class="r_title" href="#"><p>허니영 세트(아카시아+야생화꿀)</p></a>
+                        <a class="r_price" href="#"><p><em>120,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide reco_s">
-                        <a href="#"><img src="./images/best_007.png" alt=""></a>
-                        <a href="#"><p>허니영 밤나무벌꿀</p></a>
-                        <a href="#"><p><em>100,000</em>원</p></a>
+                        <a class="r_img" href="#"><img src="./images/best_007.png" alt=""></a>
+                        <a class="r_title" href="#"><p>허니영 밤나무벌꿀</p></a>
+                        <a class="r_price" href="#"><p><em>100,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide reco_s">
-                        <a href="#"><img src="./images/best_008.png" alt=""></a>
-                        <a href="#"><p>아카시아+밤나무벌꿀 세트 </p></a>
-                        <a href="#"><p><em>160,000</em>원</p></a>
+                        <a class="r_img" href="#"><img src="./images/best_008.png" alt=""></a>
+                        <a class="r_title" href="#"><p>아카시아+밤나무벌꿀 세트 </p></a>
+                        <a class="r_price" href="#"><p><em>160,000</em>원</p></a>
                     </div>
                 <div class="swiper-scrollbar"></div>
                 </div>
+            </div>
+            <div class="banner_n1">
+                <img src="./images/adb_001.png" alt="#">
             </div>
             <section class="view_all">
                 <p>전체상품 보기</p>
                 <h2>View Product All</h2>
                 <a href="#"><p>View all</p></a>
             </section>
-            <div class="banner_n1">
-                <img src="./images/adb_001.png" alt="#">
-            </div>
             <div class="swiper-container_wrap all">
                 <div class="swiper-wrapper all_d">
                     <div class="swiper-slide all_s">
-                        <a href="#"><img src="./images/best_009.png" alt=""></a>
-                        <a href="#"><p>플라워 야생벌꿀</p></a>
-                        <a href="#"><p><em>110,000</em>원</p></a>
+                        <a class="a_img" href="#"><img src="./images/best_009.png" alt=""></a>
+                        <a class="a_title" href="#"><p>플라워 야생벌꿀</p></a>
+                        <a class="a_price" href="#"><p><em>110,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide all_s">
-                        <a href="#"><img src="./images/best_010.png" alt=""></a>
-                        <a href="#"><p>허니데이 밤나무벌꿀</p></a>
-                        <a href="#"><p><em>80,000원</em>원</p></a>
+                        <a class="a_img" href="#"><img src="./images/best_010.png" alt=""></a>
+                        <a class="a_title" href="#"><p>허니데이 밤나무벌꿀</p></a>
+                        <a class="a_price" href="#"><p><em>80,000원</em>원</p></a>
                     </div>
                     <div class="swiper-slide all_s">
-                        <a href="#"><img src="./images/best_011.png" alt=""></a>
-                        <a href="#"><p>플라워 아카시아벌꿀</p></a>
-                        <a href="#"><p><em>130,000</em>원</p></a>
+                        <a class="a_img" href="#"><img src="./images/best_011.png" alt=""></a>
+                        <a class="a_title" href="#"><p>플라워 아카시아벌꿀</p></a>
+                        <a class="a_price" href="#"><p><em>130,000</em>원</p></a>
                     </div>
                     <div class="swiper-slide all_s">
-                        <a href="#"><img src="./images/best_012.png" alt=""></a>
-                        <a href="#"><p>허니영 아카시아꿀</p></a>
-                        <a href="#"><p><em>100,000</em>원</p></a>
+                        <a class="a_img" href="#"><img src="./images/best_012.png" alt=""></a>
+                        <a class="a_title" href="#"><p>허니영 아카시아꿀</p></a>
+                        <a class="a_price" href="#"><p><em>100,000</em>원</p></a>
                     </div>
                 <div class="swiper-scrollbar"></div>
                 </div>
             </div>
             <section class="van">
-                <img src="./images/van_01.png" alt="반고흐뮤지엄 콜라보">
+                <img class="vantop" src="./images/van_01.png" alt="반고흐뮤지엄 콜라보">
                 <div class="bottom">
                     <img src="./images/van_02.png" alt="반고흐뮤지엄 콜라보">
-                    <h3>안상규벌꿀 x 반 고흐 뮤지엄 스페셜 에디션</h3>
-                    <p>한정판 에디션으로 소중한 분께 특별한 선물이 됩니다.<br>자연을 사랑한 빈센트 반 고흐와 안상규벌꿀의 특별한 만남.<br>반 고흐 뮤지엄 공식 협업 패키지로 아름다운 작품과 벌꿀을 함께 소장하세요.</p>
-                    <a href="#">
-                        <p>자세히 보기</p>
-                    </a>
+                    <div class="v_text">
+                        <h3>안상규벌꿀 x 반 고흐 뮤지엄 스페셜 에디션</h3>
+                        <p>한정판 에디션으로 소중한 분께 특별한 선물이 됩니다.<br>자연을 사랑한 빈센트 반 고흐와 안상규벌꿀의 특별한 만남.<br>반 고흐 뮤지엄 공식 협업 패키지로 아름다운 작품과 벌꿀을 함께 소장하세요.</p>
+                        <a href="#">
+                            <span>자세히 보기</span>
+                        </a>
+                    </div>
                 </div>
             </section>
             <section class="magazin">
+                <h3>MAGAZIN</h3>
                 <div class="swiper-container_wrap magazin">
                     <div class="swiper-wrapper magazin_d">
                         <div class="swiper-slide magazin_s">

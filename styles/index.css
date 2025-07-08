@@ -1,0 +1,345 @@
+.wrap {
+    background-color: cadetblue;
+}
+.wrap header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:center;
+    padding: 8px 150px;
+}
+.wrap header .left {}
+.wrap header .left h1 {}
+.wrap header .left h1 img {}
+.wrap header .right {}
+.wrap header .right_n1 {}
+.wrap header .right_n1 a {
+    margin-right: 20px;
+}
+.wrap header .right_n1 a:last-child {
+    margin-right: 0;
+}
+.wrap header .right_n1 a span {
+    font-size: 0.875rem;
+    color: #fff;
+}
+.wrap header .right_n2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content:flex-end;
+}
+.wrap header .right_n2 .search-box {
+    border-bottom: 1px solid #fff;
+}
+.wrap header .right_n2 .search-box input {
+    all: unset;
+}
+.wrap header .right_n2 .search-box input::placeholder {
+    color: #fff;
+}
+.wrap header .right_n2 .search-box button {}
+.wrap header .right_n2 .mypage {}
+.wrap header .right_n2 .mypage img {}
+.wrap header .right_n2 .cart {}
+.wrap header .right_n2 .cart img {}
+.wrap main .main_bg {
+    position: relative;
+}
+.wrap main .main_bg .bg {}
+.wrap main .main_bg p {
+    font-family: 'Song Myung', serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1.4;
+    position: absolute;
+    top: 200px; left: 763px;
+}
+.wrap main .main_bg .bg_logo {
+    position: absolute;
+    top: 363px; left: 812px;
+}
+.wrap main .best_seller_title {
+    font-size: 0.875rem;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-content:center;
+    text-align: center;
+    gap: 5px;
+    padding-top: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.wrap main .best_seller_title p {
+    color: #fff;
+}
+.wrap main .best_seller_title h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 2rem;
+    color: #fff;
+}
+.wrap main .best_seller_title .price_warp {
+}
+.wrap main .best_seller_title .view_more {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+.wrap main .best_seller_title .view_more p {
+    border-bottom: 1px solid #fff;
+}
+.wrap main .best_seller_title a {}
+.wrap main .best_seller_title a span {
+    font-size: 0.75rem;
+    margin-right: 10px;
+    color: #fff;
+}
+.wrap main .best_seller_title a .point {
+    font-weight: 600;
+    color: #fff;
+}
+.wrap main .best_seller_title .more {}
+.wrap main .best_seller_title .more p {}
+.wrap main .swiper-container_wrap.best {
+    padding: 20px 170px;
+}
+.wrap main .swiper-wrapper.best_d {}
+.wrap main .swiper-wrapper .swiper-slide.best_s {
+    width: 400px;
+    height: 489px;
+    margin-right: 10px;
+    text-align: center;
+}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_img {}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_img img {}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_title {
+}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_price {}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_price p {
+    margin-top: 5px;
+    color: #fff;
+}
+.wrap main .swiper-wrapper .swiper-slide.best_s .b_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+.wrap main .swiper-wrapper .swiper-slide.best_s .swiper-scrollbar {
+}
+.wrap main .recommend {
+    font-size: 0.875rem;
+    padding-top: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+}
+.wrap main .recommend p {
+    color: #fff;
+}
+.wrap main .recommend h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 5px;
+}
+.wrap main .recommend a {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+.wrap main .recommend a p {
+    border-bottom: 1px solid #fff;
+}
+.wrap main .swiper-container_wrap.reco {
+    padding: 20px 170px;
+}
+.wrap main .swiper-wrapper.reco_d {}
+.wrap main .swiper-slide.reco_s {
+    width: 400px;
+    height: 489px;
+    margin-right: 10px;
+    text-align: center;
+}
+.wrap main .swiper-slide.reco_s .r_img {}
+.wrap main .swiper-slide.reco_s .r_img img {}
+.wrap main .swiper-slide.reco_s .r_title {}
+.wrap main .swiper-slide.reco_s .r_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.wrap main .swiper-slide.reco_s .r_price {}
+.wrap main .swiper-slide.reco_s .r_price p {
+    margin-top: 5px;
+    color: #fff;
+}
+.wrap main .swiper-slide.reco_s .r_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+.wrap main .banner_n1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.wrap main .banner_n1 img {}
+.wrap main .swiper-container_wrapreco .swiper-wrapperreco_d .swiper-scrollbar {}
+.wrap main .view_all {
+    font-size: 0.875rem;
+    padding-top: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+}
+.wrap main .view_all p {
+    color: #fff;
+}
+.wrap main .view_all h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 5px;
+}
+.wrap main .view_all a {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+.wrap main .view_all a p {
+    border-bottom: 1px solid #fff;
+}
+.wrap main .swiper-container_wrap.all {
+    padding: 20px 170px;
+}
+.wrap main .swiper-wrapper.all_d {}
+.wrap main .swiper-slide.all_s {
+    width: 400px;
+    height: 489px;
+    margin-right: 10px;
+    text-align: center;
+}
+.wrap main .swiper-slide.all_s .a_img {}
+.wrap main .swiper-slide.all_s .a_img img {}
+.wrap main .swiper-slide.all_s .a_title {}
+.wrap main .swiper-slide.all_s .a_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.wrap main .swiper-slide.all_s .a_price {}
+.wrap main .swiper-slide.all_s .a_price p {
+    margin-top: 5px;
+    color: #fff;
+}
+.wrap main .swiper-slide.all_s .a_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+.wrap main .swiper-container_wrapall .swiper-wrapperall_d .swiper-scrollbar {}
+.wrap main .van {
+    padding-top: 150px;
+}
+.wrap main .van img {}
+.wrap main .van .vantop {
+    padding-bottom: 16px;
+}
+.wrap main .van .bottom {
+    display: flex;
+}
+.wrap main .van .bottom .v_text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrap main .van .bottom .v_text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.wrap main .van .bottom .v_text p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.2;
+}
+.wrap main .van .bottom .v_text a {
+    margin-top: 40px;
+}
+.wrap main .van .bottom .v_text a span {
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 30px;
+    line-height: 39px;
+    color: #000;
+    padding: 10px 20px;
+}
+.wrap main .magazin {}
+.wrap main .magazin h3 {
+    font-size: 2rem;
+    padding: 80px 884px;
+    color:#fff ;
+}
+.wrap main .magazin .swiper-container_wrap.magazin {}
+.wrap main .magazin .swiper-wrapper.magazin_d {
+    display: flex;
+    gap: 80px;
+    padding-left: 80px;
+}
+.wrap main .magazin .swiper-slide.magazin_s {
+    width: 500px;
+    height: 658px;
+}
+.wrap main .magazin .swiper-slide.magazin_s a {}
+.wrap main .magazin .swiper-slide.magazin_s a img {}
+.wrap main .magazin .swiper-slide.magazin_s a h4 {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+.wrap main .lastb {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.wrap main .lastb img {}
+.wrap footer {
+    padding: 60px 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.wrap footer .top_zone1 {
+    display: flex;
+    gap: 80px;
+}
+.wrap footer .top_zone1 a {}
+.wrap footer .top_zone1 a p {
+    font-weight: 600;
+    color: #fff;
+}
+.wrap footer .top_zone2 {
+    display: flex;
+}
+.wrap footer .top_zone2 a {}
+.wrap footer .under_left {}
+.wrap footer .under_left .under_n1 {}
+.wrap footer .under_left .under_n1 p {}
+.wrap footer .under_left .under_n1 p em {}
+.wrap footer .under_rigth {}
+.wrap footer .under_rigth .under_r1 {}
+.wrap footer .under_rigth .under_r1 a {}
+.wrap footer .under_rigth .under_r1 a p {}
+.wrap footer .under_rigth .under_n2 {}
+.wrap footer .under_rigth .under_n2 em {}
+.wrap footer .under_rigth .under_n2 p {}
+.wrap footer .under_rigth .under_n3 {}
+.wrap footer .under_rigth .under_n3 em {}
+.wrap footer .under_rigth .under_n3 p {}
+.wrap footer .under_rigth .under_n4 {}
+.wrap footer .under_rigth .under_n4 em {}
+.wrap footer .under_rigth .under_n4 p {}
