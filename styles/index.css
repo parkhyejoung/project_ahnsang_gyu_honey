@@ -102,35 +102,35 @@
 }
 .wrap main .best_seller_title .more {}
 .wrap main .best_seller_title .more p {}
-.wrap main .swiper-container_wrap.best {
+.wrap main .swiper .best {
     padding: 20px 170px;
 }
-.wrap main .swiper-wrapper.best_d {}
-.wrap main .swiper-wrapper .swiper-slide.best_s {
+.wrap main .swiper .best_d {}
+.wrap main .swiper .swiper-slide.best_s {
     width: 400px;
     height: 489px;
     margin-right: 10px;
     text-align: center;
 }
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_img {}
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_img img {}
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_title {
+.wrap main .swiper .swiper-slide.best_s .b_img {}
+.wrap main .swiper .swiper-slide.best_s .b_img img {}
+.wrap main .swiper .swiper-slide.best_s .b_title {
 }
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_title p {
+.wrap main .swiper .swiper-slide.best_s .b_title p {
     margin-top: 30px;
     font-size: 1rem;
     color: #fff;
 }
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_price {}
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_price p {
+.wrap main .swiper .swiper-slide.best_s .b_price {}
+.wrap main .swiper .swiper-slide.best_s .b_price p {
     margin-top: 5px;
     color: #fff;
 }
-.wrap main .swiper-wrapper .swiper-slide.best_s .b_price p em {
+.wrap main .swiper .swiper-slide.best_s .b_price p em {
     color: #fff;
     font-weight: 600;
 }
-.wrap main .swiper-wrapper .swiper-slide.best_s .swiper-scrollbar {
+.wrap main .swiper .swiper-slide.best_s .swiper-scrollbar {
 }
 .wrap main .recommend {
     font-size: 0.875rem;
@@ -159,7 +159,7 @@
 .wrap main .swiper-container_wrap.reco {
     padding: 20px 170px;
 }
-.wrap main .swiper-wrapper.reco_d {}
+.wrap main .swiper.reco_d {}
 .wrap main .swiper-slide.reco_s {
     width: 400px;
     height: 489px;
@@ -188,7 +188,7 @@
     padding-bottom: 60px;
 }
 .wrap main .banner_n1 img {}
-.wrap main .swiper-container_wrapreco .swiper-wrapperreco_d .swiper-scrollbar {}
+.wrap main .swiper-container_wrapreco .swiperreco_d .swiper-scrollbar {}
 .wrap main .view_all {
     font-size: 0.875rem;
     padding-top: 60px;
@@ -216,7 +216,7 @@
 .wrap main .swiper-container_wrap.all {
     padding: 20px 170px;
 }
-.wrap main .swiper-wrapper.all_d {}
+.wrap main .swiper.all_d {}
 .wrap main .swiper-slide.all_s {
     width: 400px;
     height: 489px;
@@ -240,7 +240,7 @@
     color: #fff;
     font-weight: 600;
 }
-.wrap main .swiper-container_wrapall .swiper-wrapperall_d .swiper-scrollbar {}
+.wrap main .swiper-container_wrapall .swiperall_d .swiper-scrollbar {}
 .wrap main .van {
     padding-top: 150px;
 }
@@ -287,7 +287,7 @@
     color:#fff ;
 }
 .wrap main .magazin .swiper-container_wrap.magazin {}
-.wrap main .magazin .swiper-wrapper.magazin_d {
+.wrap main .magazin .swiper.magazin_d {
     display: flex;
     gap: 80px;
     padding-left: 80px;
