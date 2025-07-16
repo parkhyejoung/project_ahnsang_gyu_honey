@@ -23,6 +23,10 @@
     font-size: 0.875rem;
     color: #fff;
 }
+.wrap header .right_n1 a span:hover{
+    color: #dfa832e1;
+    transition: 0.7s;
+}
 .wrap header .right_n2 {
     display: flex;
     gap: 20px;
@@ -34,6 +38,7 @@
 }
 .wrap header .right_n2 .search-box input {
     all: unset;
+    color: #fff;
 }
 .wrap header .right_n2 .search-box input::placeholder {
     color: #fff;
@@ -96,14 +101,78 @@
     justify-content:flex-end;
 }
 .wrap main .best_seller_title .view_more p {
-    border-bottom: 1px solid #fff;
     margin-bottom: 10px;
 }
+.wrap main .best_seller_title .view_more p:hover {
+    color: #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .best {
+    padding: 20px 170px;
+}
+.wrap main .best .best_d {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wrap main .best .best_d .best_s1,
+.wrap main .best .best_d .best_s2,
+.wrap main .best .best_d .best_s3,
+.wrap main .best .best_d .best_s4 {
+    width: 400px;
+    height: 489px;
+    text-align: center;
+}
+.wrap main .best .best_d .best_s1 .b_img,
+.wrap main .best .best_d .best_s2 .b_img,
+.wrap main .best .best_d .best_s3 .b_img,
+.wrap main .best .best_d .best_s4 .b_img {}
+
+.wrap main .best .best_d .best_s1 .b_title,
+.wrap main .best .best_d .best_s2 .b_title,
+.wrap main .best .best_d .best_s3 .b_title,
+.wrap main .best .best_d .best_s4 .b_title {
+}
+
+.wrap main .best .best_d .best_s1 .b_title p,
+.wrap main .best .best_d .best_s2 .b_title p,
+.wrap main .best .best_d .best_s3 .b_title p,
+.wrap main .best .best_d .best_s4 .b_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.wrap main .best .best_d .best_s1 .b_price p,
+.wrap main .best .best_d .best_s2 .b_price p,
+.wrap main .best .best_d .best_s3 .b_price p,
+.wrap main .best .best_d .best_s4 .b_price p {
+    margin-top: 5px;
+    color: #fff;
+}
+.wrap main .best .best_d .best_s1 .b_price p em,
+.wrap main .best .best_d .best_s2 .b_price p em,
+.wrap main .best .best_d .best_s3 .b_price p em,
+.wrap main .best .best_d .best_s4 .b_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+
+.wrap main .best .swiper-button-prev
+
 .wrap main .best_seller_title a {}
 .wrap main .best_seller_title a span {
     font-size: 0.75rem;
     margin-right: 10px;
     color: #fff;
+}
+.wrap main .best_seller_title a span:hover {
+    color: #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .best_seller_title a span:hover {
+    border-bottom: 1px solid #dfa832e1;
+    transition: 0.7s;
 }
 .wrap main .best_seller_title a .point {
     font-weight: 600;
@@ -111,133 +180,7 @@
 }
 .wrap main .best_seller_title .more {}
 .wrap main .best_seller_title .more p {}
-.wrap main .swiper .best {
-    padding: 20px 170px;
-    width: 100vw;
-}
-.wrap main .swiper .best_d {}
-.wrap main .swiper .best_d .swiper-slide {
-    width: 400px;
-    height: 489px;
-    /* margin-right: 10px; */
-    text-align: center;
-}
-.wrap main .swiper .best_d .swiper-slide .b_img {}
-.wrap main .swiper .best_d .swiper-slide .b_img img {}
-.wrap main .swiper .best_d .swiper-slide .b_title {}
-.wrap main .swiper .best_d .swiper-slide .b_title p {
-    margin-top: 30px;
-    font-size: 1rem;
-    color: #fff;
-}
-.wrap main .swiper .best_d .swiper-slide .b_price {}
-.wrap main .swiper .best_d .swiper-slide .b_price p {
-    margin-top: 5px;
-    color: #fff;
-}
-.wrap main .swiper .best_d .swiper-slide .b_price p em {
-    color: #fff;
-    font-weight: 600;
-}
-.wrap main .swiper .best_s1 {
-    /* width: 400px;
-    height: 489px;
-    margin-right: 10px;
-    text-align: center; */
-}
-.best_seller_title+.best {width:1600px; margin:0 auto;}
-.wrap main .swiper .best_s1 .b_img {}
-.wrap main .swiper .best_s1 .b_img img {}
-.wrap main .swiper .best_s1 .b_title {
-}
-.wrap main .swiper .best_s1 .b_title p {
-    /* margin-top: 30px;
-    font-size: 1rem;
-    color: #fff; */
-}
-.wrap main .swiper .best_s1 .b_price {}
-.wrap main .swiper .best_s1 .b_price p {
-    /* margin-top: 5px;
-    color: #fff; */
-}
-.wrap main .swiper .best_s1 .b_price p em {
-    /* color: #fff;
-    font-weight: 600; */
-} 
-.wrap main .swiper .swiper-slide .best_s2 {
-    /* width: 400px;
-    height: 489px;
-    margin-right: 10px;
-    text-align: center; */
-}
-.wrap main .swiper .swiper-slide .best_s2 .b_img {}
-.wrap main .swiper .swiper-slide .best_s2 .b_img img {}
-.wrap main .swiper .swiper-slide .best_s2 .b_title {
-}
-.wrap main .swiper .swiper-slide .best_s2 .b_title p {
-    /* margin-top: 30px;
-    font-size: 1rem;
-    color: #fff; */
-}
-.wrap main .swiper .swiper-slide .best_s2 .b_price {}
-.wrap main .swiper .swiper-slide .best_s2 .b_price p {
-    /* margin-top: 5px;
-    color: #fff; */
-}
-.wrap main .swiper .swiper-slide .best_s2 .b_price p em {
-    /* color: #fff;
-    font-weight: 600; */
-} 
-.wrap main .swiper .swiper-slide .best_s3 {
-    /* width: 400px;
-    height: 489px;
-    margin-right: 10px;
-    text-align: center; */
-}
-.wrap main .swiper .swiper-slide .best_s3 .b_img {}
-.wrap main .swiper .swiper-slide .best_s3 .b_img img {}
-.wrap main .swiper .swiper-slide .best_s3 .b_title {
-}
-.wrap main .swiper .swiper-slide .best_s3 .b_title p {
-    /* margin-top: 30px;
-    font-size: 1rem;
-    color: #fff; */
-}
-.wrap main .swiper .swiper-slide .best_s3 .b_price {}
-.wrap main .swiper .swiper-slide .best_s3 .b_price p {
-    /* margin-top: 5px;
-    color: #fff; */
-}
-.wrap main .swiper .swiper-slide .best_s3 .b_price p em {
-    /* color: #fff;
-    font-weight: 600; */
-} 
-.wrap main .swiper .swiper-slide .best_s4 {
-    /* width: 400px;
-    height: 489px;
-    margin-right: 10px;
-    text-align: center; */
-}
-.wrap main .swiper .swiper-slide .best_s4 .b_img {}
-.wrap main .swiper .swiper-slide .best_s4 .b_img img {}
-.wrap main .swiper .swiper-slide .best_s4 .b_title {
-}
-.wrap main .swiper .swiper-slide .best_s4 .b_title p {
-    /* margin-top: 30px;
-    font-size: 1rem;
-    color: #fff; */
-}
-.wrap main .swiper .swiper-slide .best_s4 .b_price {}
-.wrap main .swiper .swiper-slide .best_s4 .b_price p {
-    /* margin-top: 5px;
-    color: #fff; */
-}
-.wrap main .swiper .swiper-slide .best_s4 .b_price p em {
-    /* color: #fff;
-    font-weight: 600; */
-} 
-.wrap main .swiper-scrollbar {
-}
+
 .wrap main .recommend {
     font-size: 0.875rem;
     padding-top: 60px;
