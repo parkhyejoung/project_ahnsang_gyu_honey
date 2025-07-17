@@ -32,6 +32,7 @@
     gap: 20px;
     padding-top: 10px;
     justify-content:flex-end;
+    align-items: center;
 }
 .wrap header .right_n2 .search-box {
     border-bottom: 1px solid #fff;
@@ -395,7 +396,7 @@
     margin-top: 40px;
 }
 .wrap main .van .v_text a span:hover {
-    background-color: #ffee00e1;
+    background-color: #ffee00b6;
     color: #fff;
     transition: 0.7s;
 }
@@ -456,7 +457,7 @@
 }
 .wrap footer {
     padding: 60px 100px;
-}
+}   
 .wrap footer .fwrap {
     display: flex;
     flex-flow: column wrap;
