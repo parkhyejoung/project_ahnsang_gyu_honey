@@ -1,0 +1,110 @@
+.wrap {
+    background-color: #000;
+}
+.wrap main {
+    background-color: #F5F5F5;
+    width: 100vw;
+    height: 100vh;
+}
+.wrap main .cart_zone {
+}
+.wrap main .title {
+    background-color: #fff;
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+.wrap main .title h2 {
+    font-size: 2.25rem;
+    padding: 50px 0;
+}
+main .cart_zone .bg_zone {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+}
+main .bg_zone {
+    background-color: #F5F5F5;
+    height: max-content;
+    padding-top: 80px;
+}
+main .bg_zone .left {}
+main .bg_zone .left .left_bar {
+    width: 1060px;
+    height: 77px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+main .bg_zone .left .left_bar .c_box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+main .bg_zone .left .left_bar .ckbox {
+}
+main .bg_zone .left .left_bar .ckbox img {}
+main .bg_zone .left .left_bar .c_box span {
+    color: #ACACAC;
+}
+main .bg_zone .left .left_bar span {
+    color: #ACACAC;
+}
+main .bg_zone .left .left_bar a:nth-last-child(1) {
+    border: 1px solid #ACACAC;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+main .bg_zone .left .left_bar a span {}
+main .bg_zone .left_bottom {
+    padding: 80px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+main .bg_zone .left_bottom img {}
+main .bg_zone .left_bottom p {
+    margin-top: 35px;
+}
+main .cart_zone .bg_zone .right {
+    width: 490px;
+    height: 393px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+main .bg_zone .right .r_title {
+    text-align: left;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+main .bg_zone .right ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+main .bg_zone .right ul .total {
+    margin-top: 88px;
+    border-top: 1px solid #D9D9D9;
+    padding: 20px 0;
+}
+main .bg_zone .login {
+    width: 490px;
+    height: 69px;
+    background-color:#fff;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+main .bg_zone .login p {
+    line-height: 69px;
+    font-weight: 600;
+}

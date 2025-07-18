@@ -1,0 +1,409 @@
+.wrap {
+    background-color: #000;
+}
+.wrap main .main_bg img {width:100%;}
+.wrap main .main_bg {
+    position: relative;
+    width:100%; height:858px;
+    background:url(../images/mainbg.png) no-repeat center / cover;
+    text-align:center;
+    display:flex; flex-flow:column nowrap; justify-content:center;
+}
+.wrap main .main_bg .bg {}
+.wrap main .main_bg p {
+    font-family: 'Song Myung', serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 1.4;
+    /* position: absolute;
+    top: 200px; left: 763px; */
+    margin:0 auto 43px;
+}
+.wrap main .main_bg .bg_logo {
+    /* position: absolute;
+    top: 363px; left: 812px; */
+    width:317px;
+    margin:0 auto;
+}
+.wrap main .best_seller_title {
+    font-size: 0.875rem;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    align-content:center;
+    text-align: center;
+    gap: 5px;
+    padding-top: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.wrap main .best_seller_title p {
+    color: #fff;
+}
+.wrap main .best_seller_title h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 2rem;
+    color: #fff;
+}
+.wrap main .best_seller_title .price_warp {
+}
+.wrap main .best_seller_title .view_more {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+.wrap main .best_seller_title .view_more p {
+    margin-bottom: 20px;
+}
+.wrap main .best_seller_title .view_more p:hover {
+    color: #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .best {
+    width: 1600px;
+    overflow: hidden;
+}
+.wrap main .best .best_d {
+    display: flex;
+}
+.wrap main .best_s1,
+.wrap main .best_s2,
+.wrap main .best_s3,
+.wrap main .best_s4 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.wrap main .best .best_d .best_s1 .b_img,
+.wrap main .best .best_d .best_s2 .b_img,
+.wrap main .best .best_d .best_s3 .b_img,
+.wrap main .best .best_d .best_s4 .b_img {
+}
+.wrap main .best .best_d .best_s1 .b_title,
+.wrap main .best .best_d .best_s2 .b_title,
+.wrap main .best .best_d .best_s3 .b_title,
+.wrap main .best .best_d .best_s4 .b_title {
+}
+
+.wrap main .best .best_d .best_s1 .b_title p,
+.wrap main .best .best_d .best_s2 .b_title p,
+.wrap main .best .best_d .best_s3 .b_title p,
+.wrap main .best .best_d .best_s4 .b_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.wrap main .best .best_d .best_s1 .b_price p,
+.wrap main .best .best_d .best_s2 .b_price p,
+.wrap main .best .best_d .best_s3 .b_price p,
+.wrap main .best .best_d .best_s4 .b_price p {
+    margin-top: 5px;
+    color: #fff;
+}
+.wrap main .best .best_d .best_s1 .b_price p em,
+.wrap main .best .best_d .best_s2 .b_price p em,
+.wrap main .best .best_d .best_s3 .b_price p em,
+.wrap main .best .best_d .best_s4 .b_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+.wrap main .best_seller_title a {}
+.wrap main .best_seller_title a span {
+    font-size: 0.75rem;
+    margin-right: 10px;
+    color: #fff;
+}
+.wrap main .best_seller_title a span:hover {
+    color: #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .best_seller_title a span:hover {
+    border-bottom: 1px solid #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .best_seller_title a .point {
+    font-weight: 600;
+    color: #fff;
+}
+.wrap main .best_seller_title .more {}
+.wrap main .best_seller_title .more p {}
+
+.wrap main .recommend {
+    font-size: 0.875rem;
+    padding-top: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+}
+.wrap main .recommend p {
+    color: #fff;
+}
+.wrap main .recommend h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 5px;
+}
+.wrap main .recommend a {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+.wrap main .recommend a p {
+    margin-bottom: 20px;
+}
+.wrap main .recommend a p:hover{
+    color: #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .reco {
+    width: 1600px;
+    overflow: hidden;
+}
+.wrap main .reco .reco_d {
+    display: flex;
+}
+.wrap main .reco_s1,
+.wrap main .reco_s2,
+.wrap main .reco_s3,
+.wrap main .reco_s4 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.wrap main .reco .reco_d .reco_s1 .r_img img,
+.wrap main .reco .reco_d .reco_s2 .r_img img,
+.wrap main .reco .reco_d .reco_s3 .r_img img,
+.wrap main .reco .reco_d .reco_s4 .r_img img {
+    width: 380px;
+    height: 380px;
+}
+.wrap main .reco .reco_d .reco_s1 .r_title,
+.wrap main .reco .reco_d .reco_s2 .r_title,
+.wrap main .reco .reco_d .reco_s3 .r_title,
+.wrap main .reco .reco_d .reco_s4 .r_title {
+}
+.wrap main .reco .reco_d .reco_s1 .r_title p,
+.wrap main .reco .reco_d .reco_s2 .r_title p,
+.wrap main .reco .reco_d .reco_s3 .r_title p,
+.wrap main .reco .reco_d .reco_s4 .r_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.wrap main .reco .reco_d .reco_s1 .r_price p,
+.wrap main .reco .reco_d .reco_s2 .r_price p,
+.wrap main .reco .reco_d .reco_s3 .r_price p,
+.wrap main .reco .reco_d .reco_s4 .r_price p {
+    margin-top: 5px;
+    color: #fff;
+}
+.wrap main .reco .reco_d .reco_s1 .r_price p em,
+.wrap main .reco .reco_d .reco_s2 .r_price p em,
+.wrap main .reco .reco_d .reco_s3 .r_price p em,
+.wrap main .reco .reco_d .reco_s4 .r_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+.wrap main .banner_n1 {
+    background:url(../images/adb_001.png) no-repeat center / cover;
+    width: 100%;
+    height: 333px;
+    margin-top: 60px;
+}
+.wrap main .container_wrap_wrapreco .swiperreco_d .swiper-scrollbar {}
+.wrap main .view_all {
+    font-size: 0.875rem;
+    padding-top: 60px;
+    padding-left: 170px;
+    padding-right: 170px;
+    text-align: center;
+}
+.wrap main .view_all p {
+    color: #fff;
+}
+.wrap main .view_all h2 {
+    font-family: 'Song Myung', serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 5px;
+}
+.wrap main .view_all a {
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+.wrap main .view_all a p {
+    padding-bottom: 20px;
+}
+.wrap main .view_all a p:hover {
+    color: #dfa832e1;
+    transition: 0.7s;
+}
+.wrap main .container_wrap_wrap.all {
+    padding: 20px 170px;
+}
+/* --------------------------------------------------all 시작 */
+.wrap main .all {
+    width: 1600px;
+    overflow: hidden;
+}
+.wrap main .all .all_d {
+    display: flex;
+}
+.wrap main .all_s1,
+.wrap main .all_s2,
+.wrap main .all_s3,
+.wrap main .all_s4 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.wrap main .all .all_d .all_s1 .a_img img,
+.wrap main .all .all_d .all_s2 .a_img img,
+.wrap main .all .all_d .all_s3 .a_img img,
+.wrap main .all .all_d .all_s4 .a_img img {
+    width: 380px;
+    height: 380px;
+}
+.wrap main .all .all_d .all_s1 .a_title,
+.wrap main .all .all_d .all_s2 .a_title,
+.wrap main .all .all_d .all_s3 .a_title,
+.wrap main .all .all_d .all_s4 .a_title {
+}
+.wrap main .all .all_d .all_s1 .a_title p,
+.wrap main .all .all_d .all_s2 .a_title p,
+.wrap main .all .all_d .all_s3 .a_title p,
+.wrap main .all .all_d .all_s4 .a_title p {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #fff;
+}
+.wrap main .all .all_d .all_s1 .a_price p,
+.wrap main .all .all_d .all_s2 .a_price p,
+.wrap main .all .all_d .all_s3 .a_price p,
+.wrap main .all .all_d .all_s4 .a_price p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+}
+.wrap main .all .all_d .all_s1 .a_price p em,
+.wrap main .all .all_d .all_s2 .a_price p em,
+.wrap main .all .all_d .all_s3 .a_price p em,
+.wrap main .all .all_d .all_s4 .a_price p em {
+    color: #fff;
+    font-weight: 600;
+}
+.wrap main .van {
+    width: 100%;
+    height: 866px;
+}
+/* .wrap main .van {
+    background:url(../images/van_01.png) no-repeat center / cover;
+    width: 100%;
+    height: 333px;
+    margin: 80px 0;
+} */
+.wrap main .van .van_br1 {
+    background:url(../images/van_01.png) no-repeat center / cover;
+    width: 100%;
+    height: 333px;
+    margin: 80px 0 20px 0;
+}
+.wrap main .van .bottom {
+    display: flex;
+}
+.wrap main .van .van_br2 {
+    background: url(../images/van_02.png) no-repeat center / cover;
+    width: 1002px;
+    height: 500px;
+}
+.wrap main .van .vantop {
+    padding-bottom: 16px;
+}
+.wrap main .van .bottom {
+    display: flex;
+}
+.wrap main .v_text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrap main .van .v_text h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.wrap main .van .v_text p {
+    font-size: 1rem;
+    color: #fff;
+    line-height: 1.2;
+}
+.wrap main .van .v_text a {
+    margin-top: 40px;
+}
+.wrap main .van .v_text a span:hover {
+    background-color: #ffee00b6;
+    color: #fff;
+    transition: 0.7s;
+}
+.wrap main .van .v_text a span {
+    background-color: #fff;
+    border-radius: 30px;
+    line-height: 39px;
+    color: #000;
+    padding: 10px 20px;
+}
+.wrap main .magazin {
+    width:100vw; overflow:hidden;
+    /* width: 1920px; */
+    /* height: 668px; */
+}
+.wrap main .magazin h3 {
+    font-size: 2rem;
+    width: 100vw;
+    text-align: center;
+    color:#fff ;
+    padding-top: 80px;
+    padding-bottom:80px;
+}
+.wrap main .magazin .container_wrap {}
+.wrap main .magazin .container_wrap {width:1820px; margin-left:100px;}
+.wrap main .magazin .container_wrap .magazin_d {
+    display: flex;
+    width:max-content; 
+    /* gap: 80px; */
+    /* margin-left: 100px; */
+}
+.wrap main .magazin .container_wrap .magazin_d .swiper-slide {
+    width: 500px;
+    height: 658px;
+    /* margin-right:80px; */
+}
+.wrap main .magazin .container_wrap .magazin_d .swiper-slide:last-child {margin-right:0;}
+.wrap main .magazin .container_wrap .magazin_d .swiper-slide a {height:658px; display:inline-block;}
+.wrap main .magazin .container_wrap .magazin_d .swiper-slide a img {
+    width: 500px;
+    height: 600px;
+}
+.wrap main .magazin .container_wrap .magazin_d .swiper-slide a h4 {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+.wrap main .magazin .magazin_s a {}
+.wrap main .lastb {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.wrap main .lastb {
+    background: url(../images/lastb.png) no-repeat center / cover;
+    width: 100%;
+    height: 333px;
+    margin: 80px 0;
+}
