@@ -1,0 +1,254 @@
+main {}
+main .page1 {
+    width: 100%;
+    height: 681px;
+}
+main .page1 .p1_top {
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
+}
+main .page1 .p1_top .main_img {
+    background: url(../images/main.png) center / cover;
+    width: 900px;
+    height: 681px;
+}
+main .page1 .p1_top .main_txt {}
+main .page1 .p1_top .main_txt .title {}
+main .page1 .p1_top .main_txt .title span {
+    font-size: 0.875rem;
+    background-color: #000;
+    color: #fff;
+}
+main .page1 .p1_top .main_txt .title h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+main .page1 .p1_top .main_txt .main_dsc {
+    border-bottom: 1px solid #ACACAC;
+    padding-bottom: 15px;
+}
+main .page1 .p1_top .main_txt .main_dsc p {
+    font-size: 0.875rem;
+    margin-bottom: 10px;
+}
+main .page1 .p1_top .main_txt .main_dsc img {}
+main .page1 .p1_top .main_txt .main_dsc span {
+    color: #ACACAC;
+    font-size: 0.813rem;
+}
+main .page1 .p1_top .main_txt .price {
+    margin-top: 20px;
+}
+main .page1 .p1_top .main_txt .price em {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-right: 50px;
+}
+main .page1 .p1_top .main_txt .price span {
+    font-size: 0.875rem;
+}
+main .page1 .p1_top .main_txt .divery {}
+main .page1 .p1_top .main_txt .divery em {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-right: 50px;
+}
+main .page1 .p1_top .main_txt .divery span {
+    font-size: 0.875rem;
+}
+main .page1 .p1_top .main_txt .buy {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+main .page1 .p1_top .main_txt .buy span {
+    margin-right: 4px;
+}
+main .page1 .p1_top .main_txt .buy .num .n {
+    color: #8F8F8F;
+    font-size: 0.875rem;
+}
+main .page1 .p1_top .main_txt .buy .num {
+    border: 1px solid #000;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    margin-right: 116px;
+}
+main .page1 .p1_top .main_txt .buy .num span {}
+main .page1 .p1_top .main_txt .buy .num span img {}
+main .page1 .p1_top .main_txt .buy .cart {
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 4px 8px;
+}
+main .page1 .p1_top .main_txt .buy .cart span {
+    color: #fff;
+}
+main .page2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+main .page2 .p2_img {
+    display: flex;
+    gap: 30px;
+}
+main .page2 .p2_img .p2_img1 {
+    background: url(../images/main2.png) center / cover;
+    width: 450px;
+    height: 400px;
+}
+main .page2 .p2_img .p2_img2 {
+    background: url(../images/main3.png) center / cover;
+    width: 450px;
+    height: 400px;
+}
+main .page2 .p2_text {}
+main .page2 .p2_text h2 {
+    margin-bottom: 2px;
+}
+main .page2 .p2_text p {
+    display: block;
+    margin-bottom: 4px;
+}
+main .page2 .p2_text em {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+main .page3 {
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    height: 664px;
+    padding: 20px;
+}
+main .page3 .p3_top {
+    background: url(../images/t4.png) center / cover;
+    width: 705px;
+    height: 466px;
+    margin: 0 auto;
+}
+main .page3 .p3_txt {}
+main .page3 .p3_txt li {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+main .page3 .video {
+    width: 100%;
+    height: 528px;
+    background-color: aqua;
+}
+main .page3 .video iframe {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+main .page_wrap {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #000;
+}
+main .page_wrap .img_wrap {}
+main .page_wrap .img_wrap img {}
+main .page_wrap .page_wrap {}
+main .page_wrap .page_wrap_txt {
+    border-bottom: 1px solid #ACACAC;
+    padding-bottom: 10px;
+
+}
+main .page_wrap .page_wrap_txt h3 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+main .page_wrap .page_wrap_txt p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+main .page_wrap .txt_wrap {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 50px 0;
+    border-bottom: 1px solid #ACACAC;
+    color: #fff;
+}
+main .page_wrap .tasty {}
+main .page_wrap .tasty em {
+    font-weight: 600;
+    color: #fff;
+}
+main .page_wrap .tasty span {
+    color: #fff;
+}
+main .page_wrap .tip {
+    margin-top: 40px;
+}
+main .page_wrap .tip p:nth-child(1) {
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 4px;
+}
+main .page_wrap .tip p {
+    font-size: 1rem;
+    color: #fff;
+}
+main .information {
+    width: 100%;
+    height: 500px;
+    text-align: left;
+}
+main .information h3 {
+    font-size: 2.25rem;
+    font-weight: 600; 
+    text-align: center;
+    padding-top: 30px;
+}
+main .information .img_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .information .info_img {
+    background: url(../images/l1.png) center / cover;
+    width: 367px;
+    height: 271px;
+}
+main .information .info_img2 {
+    background-image: url(../images/l12.png);
+    width: 93px;
+    height: 151px;
+}
+main .information .in_txt {
+    padding-left: 660px;
+}
+main .information .in_txt_l {
+    padding-left: 660px;
+}
+main .information .in_txt em {
+    margin-right: 100px;
+}
+main .information .in_txt_l em {
+    margin-right: 70px;
+}
+main .information .in_txt span {}

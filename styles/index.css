@@ -52,6 +52,7 @@
 /* ---------------------------------------------------------헤더 끝 */
 .wrap footer {
     padding: 60px 100px;
+    background-color: #000;
 }   
 .wrap footer .fwrap {
     display: flex;
