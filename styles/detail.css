@@ -1,7 +1,7 @@
 main {}
 main .page1 {
     width: 100%;
-    height: 681px;
+    height: max-content;
 }
 main .page1 .p1_top {
     display: flex;
@@ -13,6 +13,7 @@ main .page1 .p1_top .main_img {
     background: url(../images/main.png) center / cover;
     width: 900px;
     height: 681px;
+    margin-top: 12px;
 }
 main .page1 .p1_top .main_txt {}
 main .page1 .p1_top .main_txt .title {}
@@ -20,6 +21,7 @@ main .page1 .p1_top .main_txt .title span {
     font-size: 0.875rem;
     background-color: #000;
     color: #fff;
+    padding: 0 4px;
 }
 main .page1 .p1_top .main_txt .title h1 {
     font-size: 2rem;
@@ -91,7 +93,7 @@ main .page1 .p1_top .main_txt .buy .cart span {
 }
 main .page2 {
     width: 100%;
-    height: 400px;
+    height: max-content;
     display: flex;
     gap: 120px;
     justify-content: center;
@@ -146,16 +148,15 @@ main .page3 .p3_txt li {
     color: #fff;
     margin-top: 20px;
 }
-main .page3 .video {
+main .video {
     width: 100%;
-    height: 528px;
-    background-color: aqua;
+    height: max-content;
+    background-color: #000;
+    padding: 40px 0 0 0;
 }
-main .page3 .video iframe {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: auto;
+main .video iframe {
+    display: block;
+    margin: 0 auto;
 }
 main .page_wrap {
     width: 100%;
@@ -168,7 +169,8 @@ main .page_wrap {
     background-color: #000;
 }
 main .page_wrap .img_wrap {}
-main .page_wrap .img_wrap img {}
+main .page_wrap .img_wrap img {
+}
 main .page_wrap .page_wrap {}
 main .page_wrap .page_wrap_txt {
     border-bottom: 1px solid #ACACAC;
@@ -217,22 +219,28 @@ main .information {
     width: 100%;
     height: 500px;
     text-align: left;
+    background-color: #000;
 }
 main .information h3 {
     font-size: 2.25rem;
     font-weight: 600; 
     text-align: center;
     padding-top: 30px;
+    color: #fff;
 }
 main .information .img_wrap {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: max-content;
+    padding: 20px;
 }
 main .information .info_img {
-    background: url(../images/l1.png) center / cover;
+    background: url(../images/l14.png) center / cover;
     width: 367px;
     height: 271px;
+    margin-right: 30px;
 }
 main .information .info_img2 {
     background-image: url(../images/l12.png);
@@ -241,14 +249,24 @@ main .information .info_img2 {
 }
 main .information .in_txt {
     padding-left: 660px;
+    color: #fff;
 }
 main .information .in_txt_l {
     padding-left: 660px;
 }
 main .information .in_txt em {
     margin-right: 100px;
+    font-weight: 600;
+    color: #fff;
 }
 main .information .in_txt_l em {
     margin-right: 70px;
+    font-weight: 600;
+    color: #fff;
 }
-main .information .in_txt span {}
+main .information .in_txt_l span {
+    color: #fff;
+}
+main .information .in_txt span {
+    color: #fff;
+}
